@@ -16,10 +16,10 @@ import org.dreambot.api.wrappers.interactive.NPC;
 import org.dreambot.api.wrappers.items.GroundItem;
 import org.dreambot.api.wrappers.widgets.message.Message;
 
-
+// first ever script I wrote
 @ScriptManifest(name = "First Script", description = "My script description!", author = "Developer Name",
-        version = 2.0, category = Category.WOODCUTTING, image = "")
-public class chimkenKillerInProgress extends AbstractScript {
+        version = 2.0, category = Category.COMBAT, image = "")
+public class chickenKillerInProgress extends AbstractScript {
     State state;
     String s;
     int killed;
